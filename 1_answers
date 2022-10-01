@@ -1,0 +1,36 @@
+a) 
+$ mkdir -p one/a one/b
+
+b)
+$ cd one/a
+$ cat > first.txt
+First file
+$ cat > second.txt
+second file
+$ cat > third.txt
+third file
+
+c)
+$ cp first.txt ../b
+
+d)
+$ cd ../b
+$ who | wc -l > anumber.txt
+$ ls | wc -l >> anumber.txt
+
+e)
+$ ls a* A*
+
+f)
+$ ls | wc -l
+
+g)
+$ cc file.c && ./a/outfile.c
+
+h)
+$ cat < anumber.txt | wc -l
+
+
+
+
+
