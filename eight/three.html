@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+//not done
+<body style="text-align:center;" id="body">
+	
+	<script>
+        function sort (a, b, c) 
+        {
+            if(a < b && b < c) 
+                alert(a+", "+b+", "+c);
+            else if (a < b && c < b) 
+                alert(a+", "+c+", "+b);
+            else if (b < a && a < c) 
+                alert(b+", "+a+", "+c); 
+            else if(b < a && c < a) 
+                alert(b+", "+c+", "+a);
+            else if(c < a && a < b) 
+                alert(c+", "+a+", "+b);
+            else 
+                alert(c+", "+b+", "+a);
+        }
+        a = parseInt(prompt('Enter input 1'));
+        b = parseInt(prompt('Enter input 2'));
+        c = parseInt(prompt('Enter input 3'));
+        sort(a,b,c);
+	</script>
+</body>
+
+</html>
+
+
