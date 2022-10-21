@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+
+<form action="/action_page.php">  
+  <label for="fname">Name:</label><br>
+  <input type="text" id="name" name="name"><br><br><br>
+
+  <div>
+    <label for="pass">Password:</label><br>
+    <input type="password" id="pass" name="password" minlength="8" maxlength="16" placeholder="8 to 16 charaters">
+  </div><br><br>
+
+  <fieldset>
+    <legend>Subjects</legend>
+  <input type="checkbox" id="subject1" name="subject1" value="Math">
+  <label for="vehicle1"> Math </label><br>
+  <input type="checkbox" id="subject2" name="subject2" value="OOP">
+  <label for="vehicle2"> OOP </label><br>
+  </fieldset><br><br>
+
+  <fieldset>
+    <legend>Semester</legend>
+  <input type="radio" id="2" name="Semester" value="2">
+  <label for="2">2</label><br>
+  <input type="radio" id="3" name="Semester" value="3">
+  <label for="3">3</label></fieldset><br><br><br>
+
+  <fieldset>
+    <legend>Branch</legend>
+  <select name = "dropdown">
+    <option value = "CSE" selected>CSE</option>
+    <option value = "IT">IT</option>
+    <option value = "CCE">CCE</option>
+  </select></fieldset><br><br><br>
+
+  <textarea rows="9" cols="70">  
+    Text area  
+  </textarea><br><br><br>
+
+  <input type="reset" value="Reset">
+  <input type="submit" value="Submit">
+
+</form> 
+</body>
+</html>

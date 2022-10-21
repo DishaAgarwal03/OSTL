@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="600" height="600" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+ctx.moveTo(40,40);
+ctx.lineTo(150,150);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(250, 105, 50, 0, 2 * Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(425, 105, 40, 10, 2 * Math.PI);
+ctx.stroke();
+
+ctx.fillStyle='#fa4b2a';    
+ctx.fillRect(20, 300, 140, 160); 
+
+var grd = ctx.createLinearGradient(0, 0, 350, 0);
+grd.addColorStop(0, "red");
+grd.addColorStop(1, "black");
+ctx.fillStyle = grd;
+ctx.fillRect(180, 300, 140, 160);
+
+//radial not working
+var grd1 = ctx.createRadialGradient(900, 900, 10, 150, 90, 100);
+grd1.addColorStop(0, "red");
+grd1.addColorStop(1, "black");
+ctx.fillStyle = grd1;
+ctx.fillRect(350, 300, 140, 160);
+
+</script>
+
+</body>
+</html>
