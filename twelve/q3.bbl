@@ -1,0 +1,133 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{Chris}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CAKS}{%
+         family={Chris\bibnamedelima Alexander},
+         familyi={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+         given={Keith\bibnamedelima Sebastian},
+         giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CAKS1}
+    \strng{fullhash}{CAKS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{pages}{5\bibrangedash 50}
+    \field{title}{All the Bright Places}
+    \field{volume}{20}
+    \field{journaltitle}{Atlantic Monthly}
+    \field{year}{1990}
+  \endentry
+
+  \entry{Joseph}{article}{}
+    \name{author}{1}{}{%
+      {{hash=JBMLARL}{%
+         family={Joseph\bibnamedelima Brown},
+         familyi={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+         suffix={Rob\bibnamedelima Lance},
+         suffixi={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={M.\bibnamedelima L.\bibnamedelima Aggarwal},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JBRLMLA1}
+    \strng{fullhash}{JBRLMLA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{pages}{10\bibrangedash 30}
+    \field{title}{The art of Management}
+    \field{volume}{30}
+    \field{journaltitle}{World Journal of Management}
+    \field{year}{2001}
+  \endentry
+
+  \entry{Sally}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RS}{%
+         family={Rooney},
+         familyi={R\bibinitperiod},
+         given={Sally},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RS1}
+    \strng{fullhash}{RS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{pages}{50\bibrangedash 90}
+    \field{title}{Normal People}
+    \field{volume}{50}
+    \field{journaltitle}{The Southern Review}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Salinger}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SJD}{%
+         family={Salinger},
+         familyi={S\bibinitperiod},
+         given={J.\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SJD1}
+    \strng{fullhash}{SJD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{pages}{20\bibrangedash 35}
+    \field{title}{The Catcher in the Rye}
+    \field{volume}{10}
+    \field{journaltitle}{One Story}
+    \field{year}{1945}
+  \endentry
+
+  \entry{Sam}{article}{}
+    \name{author}{1}{}{%
+      {{hash=STCJ}{%
+         family={Sam\bibnamedelima Thatcher},
+         familyi={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+         given={Chris\bibnamedelima James},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{STCJ1}
+    \strng{fullhash}{STCJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{pages}{7\bibrangedash 37}
+    \field{title}{The Fall of Edward II}
+    \field{volume}{20}
+    \field{journaltitle}{One Story}
+    \field{year}{1805}
+  \endentry
+\enddatalist
+\endinput
