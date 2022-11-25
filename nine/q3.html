@@ -1,0 +1,20 @@
+<html>
+<head>
+    <script src="angular.js"></script>
+</head>
+<body>
+
+    <div ng-app="myApp" ng-controller="myController">
+        <input type="text" placeholder="Enter Price" ng-model="app.p"><br><br>
+        <input type="text" placeholder="Enter Quantity" ng-model="app.q"><br><br>
+        {{ app.p  * app.q}}
+    </div>
+
+    <script>
+        var myApp = angular.module("myApp",[]);
+        myApp.controller('myController', function($scope) { 
+        });
+    </script>
+    
+</body>
+</html>
